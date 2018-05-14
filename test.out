@@ -1,5 +1,13 @@
-\BOOKMARK [1][-]{section.1}{This is a section}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{This is a subsection, they are used in the table of contents, which can be called with}{section.1}% 2
-\BOOKMARK [1][-]{section.2}{Running python inside of LaTeX}{}% 3
-\BOOKMARK [2][-]{subsection.2.1}{The different packages for python inside of LaTeX}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{Tables in LaTeX}{}% 5
+\BOOKMARK [1][-]{section.1}{How LaTeX Documents are laid out.}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Document formatting}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{What are sections?}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{The Table Of Contents}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Headers \046 Footers}{subsection.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.4}{List Of Figures \046 List of Tables}{subsection.1.1}% 6
+\BOOKMARK [1][-]{section.2}{Documents inside of LaTeX}{}% 7
+\BOOKMARK [1][-]{section.3}{Running python inside of LaTeX}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{The different packages for python inside of LaTeX}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Tables in LaTeX}{}% 10
+\BOOKMARK [1][-]{section.5}{How I've been inserting code snippets}{}% 11
+\BOOKMARK [1][-]{section.6}{Inputting CSV Files into LaTeX}{}% 12
+\BOOKMARK [1][-]{section.7}{Presentations}{}% 13

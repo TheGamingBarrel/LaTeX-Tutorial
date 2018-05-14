@@ -1,6 +1,7 @@
 \documentclass[12pt, letterpaper, oneside]{article} \usepackage[utf8]{inputenc}
 \usepackage[stdout=false]{pythontex}
 \usepackage{eso-pic}
+\usepackage{caption}
 \usepackage{csvsimple}
 \usepackage{xcolor}
 \usepackage{pdflscape}
@@ -19,6 +20,12 @@
 \usepackage{graphicx}
 \usepackage{pdfpages}
 \usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
 \definecolor{P1}{HTML}{00AE68}
 \definecolor{P2}{HTML}{21825B}
 \definecolor{P3}{HTML}{007143}
@@ -85,7 +92,13 @@
 
 \LaTeX{} Is a combination of written language and code, this can make reading some things more difficult, but when you understand \LaTeX{} They will make much more sense, this guide is going to teach you about how \LaTeX{} Documents are formed and what makes them great.
 
-\subsection{What are sections?}
+\subsection{Document formatting}
+
+There are lots of ways to format your documents, such as title pages and putting content into your headers or footers, when it comes to putting content in your header or footer it is managed by a package, packages are little "Add-Ons" That are used in \LaTeX{} and are how it functions with a lot of the things that I will describe in this document, however these packages will generally be pre-installed depending on the editor that you use to create \LaTeX{} Documents.
+
+
+
+\subsubsection{What are sections?}
 
 Sections are the main part that get added to the table of contents, they are the top level and are used just like Headings in Word, you can call them with this command in your \LaTeX Document
 \begin{lstlisting}
@@ -101,12 +114,59 @@ Sections are used to seperate large differing subjects, if you want to differ be
 \end{lstlisting}
 \end{figure}
 
-\begin{figure}[H]
+
+
+\subsubsection{The Table Of Contents}
+
+The table of contents is the first thing I will talk about when it comes to document formatting since it is the first thing that people will see after they open the title page, also because it is one of the easiest things to talk about.
+The table of contents is called with this command,
+
+\begin{minipage}{\linewidth}%
+ \begin{figure}[H]
 \begin{lstlisting}
 \tableofcontents
 \end{lstlisting}
 	\caption{Table of Contents Code}
 \end{figure}
+\end{minipage}
+this is simple because it does not need to be modified, however it does have customisation options anyway, some of these customization options are as basic as changing the name of the table of contents, or drastic style changes, you can read more about theming the table of contents here, on \href{ShareLaTeX}{https://www.sharelatex.com/learn/Table\_of\_contents}
+
+\subsubsection{Headers \& Footers}
+
+Headers and footers are managed by the \textbf{fancyhdr} package, it is easy to understand when you see the syntax and have it explained to you, if you refer to the code below which is used in this very document. 
+
+\begin{figure}[H]
+	\centering
+	\begin{lstlisting}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\LaTeX{} - How is it useful?}
+\lhead{Will Anderson - Barrel}
+\rfoot{Page \textbf{\thepage\ }of \textbf{\pageref{LastPage}}}
+\end{lstlisting}
+	\caption{Header \& Footer syntax for this document}
+\end{figure}
+
+Now this may look difficult but it's easy to explain, really.
+
+The first line is talking about the pagestyle, this simply sets the style to "Fancy" easy stuff, right? 
+
+The second line is resets the layout, so that you can add your own stuff, this might be confusing, but it makes sense since the configuration comes after this.
+
+The third line prints the text into the braces on the right side of the header, the fourth line does this as well, but on the left.
+
+The fifth line is used to modify the right footer on your page, in this case it is used to show the page numbering in bold.
+
+\subsubsection{List Of Figures \& List of Tables}
+
+There are two very simple commands to display a list of all of your figures and tables, just like with the table of contents they can be modified the same way.
+
+\begin{lstlisting}
+\listoffigures
+\listoftables
+\end{lstlisting}
+
+These two commands will print every single figure and table, wherever you put them in the document. 
 
 
 
