@@ -1,0 +1,38 @@
+\documentclass{beamer}
+\usetheme{Frankfurt}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{csvsimple}
+
+\begin{document}
+
+\title{How useful is \LaTeX?}
+\subtitle{Well, it made this presentation!}
+\author{Will Anderson - Barrel}
+\date{\today}
+\frame{\titlepage}
+
+\section{Introduction}
+\subsection{A subsection!}
+\begin{frame}{Pretend I could come up with a name.}
+	Hey, you rememebr that CSV I was showing off earlier? Sure, it might not fit on the page but it works in here because it's simply beamer using \LaTeX as a backend.
+	\csvautotabular{test.csv}
+\end{frame}
+
+\begin{frame}
+	Yeah, these are pretty useful for showing stuff off to co-workers, since it compiles to PDF You won't ever have issues with people not being able to view it.
+	\begin{itemize}
+		\item This
+		\item Is
+		\item An 
+		\item Unordered
+		\item List
+	\end{itemize}
+
+	Everything that you could do normally in \LaTeX Can be done here, the only thing you really need to worry about is size constraints.
+
+\end{frame}
+\end{document}

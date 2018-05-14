@@ -1,0 +1,5 @@
+\BOOKMARK [1][-]{section.1}{This is a section}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{This is a subsection, they are used in the table of contents, which can be called with}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Running python inside of LaTeX}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{The different packages for python inside of LaTeX}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Tables in LaTeX}{}% 5
