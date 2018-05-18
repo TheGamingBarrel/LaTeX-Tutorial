@@ -83,10 +83,18 @@
 \maketitle
 
 \newpage
-
+\clearpage
+\setcounter{page}{1}
 \tableofcontents
 
 \listoffigures
+
+\newpage
+
+\section*{Preface}
+\addcontentsline{toc}{section}{Preface}
+
+This document will not be talking about the benefits of using open-source software, despite being a strong point of using \LaTeX{} And your own tools, this is because these are not inherent advantages to the actual document writing process, except in the case where you're using another programming language to make something in \LaTeX{}
 
 \newpage
 
@@ -240,9 +248,49 @@ tikz_save('fig.tikz',
 
 \subsection{The different packages for python inside of \LaTeX{}}
 
-There are two main packages that you will use to run python inside of \LaTeX{}, the first one is the\textbf{\emph{python}} package and the second is the \textbf{\emph{pythontex}} package. 
+There are two main packages that you will use to run python inside of \LaTeX{}, the first one is the \textbf{\emph{python}} package and the second is the \textbf{\emph{pythontex}} package. 
 
-\pagebreak
+\subsection{Pythontex}
+
+Pythontex is used a lot for inline python coding, since the python package does not support it, the package also provides a depythontex utility, that creates a copy of the document in which all Python code has been replaced by its output. This is useful for journal submissions, sharing documents, and conversion to other formats. 
+\\
+This information is taken from \href{https://ctan.org/pkg/pythontex}{CTAN}
+\\
+Another advantage of pythontex over the python package is that Python code is only executed when it has been modified, or when it meets userspecified criteria. Code may be divided into userdefined sessions, which automatically run in parallel.
+
+\subsection{Python}
+
+This package isn't really all that well documented and because of this very few people know about the full functionality of it and even fewer will actually use it over pythontex, becuase it doesn't really bring any benefits to the table but can be used in a two second job, for reference even the readme is incredibly simple for it.
+
+\begin{lstlisting}
+This package enables you to embed Python code (www.python.org) in LaTeX and insert the output into your LaTeX document.
+
+In you LaTeX document insert:
+
+\usepackage{python}
+...
+\begin{python}[optional.py]
+	print("42")
+\end{python}
+
+The file optional.py is included together with the code between \begin{python} and \end{python}. Hence, you can extract common code to a shared file.
+
+Compile the document with the shell escape option and of course Python installed:
+
+% latex -shell-escape document.tex
+
+or insert/change "shell_escape = t" in your texmf.cnf
+
+If you have any comments, suggestions, or patches please email them to me.
+
+Please note that this material is subject to the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+See http://www.gnu.org/copyleft/gpl.html for the details of that license.
+
+Martin R. Ehmsen
+martin@ehmsen.org
+\end{lstlisting}
+
+Yeah, there's so little about this apckage that it's readme is almost entirely comments and licensing.
 
 \section{Tables in \LaTeX{}}
 
@@ -469,4 +517,12 @@ Presentations, the day I realised that I could be doing these in \LaTeX{} Was th
 	\includegraphics[width=\linewidth]{page3}
 	\caption{The third page made with \LaTeX{} and Beamer}
 \end{figure}
+
+
+\subsection{So, why should I use this instead of Powerpoint?}
+
+Well, this can literally take a normal document and quickly convert it into a slideshow, which is incredibly useful, it also will allow you to do weird stuff that I have shown off in this document, rather than using Visual Basic macros which don't really work, along with the fact that it's compiled to PDF, which makes it viewable on \emph{any} device.
+
+
+
 \end{document}

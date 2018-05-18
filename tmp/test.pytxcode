@@ -1,4 +1,4 @@
-=>PYTHONTEX#py#default#default#0#code#####175#
+=>PYTHONTEX#py#default#default#0#code#####183#
 from pylab import *
 from matplotlib2tikz import save as tikz_save
 x = linspace(0, 10, 101)

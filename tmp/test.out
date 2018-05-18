@@ -1,13 +1,17 @@
-\BOOKMARK [1][-]{section.1}{How LaTeX Documents are laid out.}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Document formatting}{section.1}% 2
-\BOOKMARK [3][-]{subsubsection.1.1.1}{What are sections?}{subsection.1.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.1.2}{The Table Of Contents}{subsection.1.1}% 4
-\BOOKMARK [3][-]{subsubsection.1.1.3}{Headers \046 Footers}{subsection.1.1}% 5
-\BOOKMARK [3][-]{subsubsection.1.1.4}{List Of Figures \046 List of Tables}{subsection.1.1}% 6
-\BOOKMARK [1][-]{section.2}{Documents inside of LaTeX}{}% 7
-\BOOKMARK [1][-]{section.3}{Running python inside of LaTeX}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{The different packages for python inside of LaTeX}{section.3}% 9
-\BOOKMARK [1][-]{section.4}{Tables in LaTeX}{}% 10
-\BOOKMARK [1][-]{section.5}{How I've been inserting code snippets}{}% 11
-\BOOKMARK [1][-]{section.6}{Inputting CSV Files into LaTeX}{}% 12
-\BOOKMARK [1][-]{section.7}{Presentations}{}% 13
+\BOOKMARK [1][-]{section*.3}{Preface}{}% 1
+\BOOKMARK [1][-]{section.1}{How LaTeX Documents are laid out.}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Document formatting}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.1}{What are sections?}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.2}{The Table Of Contents}{subsection.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Headers \046 Footers}{subsection.1.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.1.4}{List Of Figures \046 List of Tables}{subsection.1.1}% 7
+\BOOKMARK [1][-]{section.2}{Documents inside of LaTeX}{}% 8
+\BOOKMARK [1][-]{section.3}{Running python inside of LaTeX}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{The different packages for python inside of LaTeX}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Pythontex}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Python}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Tables in LaTeX}{}% 13
+\BOOKMARK [1][-]{section.5}{How I've been inserting code snippets}{}% 14
+\BOOKMARK [1][-]{section.6}{Inputting CSV Files into LaTeX}{}% 15
+\BOOKMARK [1][-]{section.7}{Presentations}{}% 16
+\BOOKMARK [2][-]{subsection.7.1}{So, why should I use this instead of Powerpoint?}{section.7}% 17

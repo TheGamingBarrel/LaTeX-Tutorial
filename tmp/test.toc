@@ -1,4 +1,5 @@
 \babel@toc {english}{}
+\contentsline {section}{Preface}{2}{section*.3}
 \contentsline {section}{\numberline {1}How \LaTeX {} Documents are laid out.}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Document formatting}{3}{subsection.1.1}
 \contentsline {subsubsection}{\numberline {1.1.1}What are sections?}{3}{subsubsection.1.1.1}
@@ -8,7 +9,10 @@
 \contentsline {section}{\numberline {2}Documents inside of \LaTeX {}}{6}{section.2}
 \contentsline {section}{\numberline {3}Running python inside of \LaTeX {}}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}The different packages for python inside of \LaTeX {}}{7}{subsection.3.1}
-\contentsline {section}{\numberline {4}Tables in \LaTeX {}}{8}{section.4}
-\contentsline {section}{\numberline {5}How I've been inserting code snippets}{12}{section.5}
-\contentsline {section}{\numberline {6}Inputting CSV Files into \LaTeX {}}{13}{section.6}
-\contentsline {section}{\numberline {7}Presentations}{14}{section.7}
+\contentsline {subsection}{\numberline {3.2}Pythontex}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Python}{8}{subsection.3.3}
+\contentsline {section}{\numberline {4}Tables in \LaTeX {}}{9}{section.4}
+\contentsline {section}{\numberline {5}How I've been inserting code snippets}{13}{section.5}
+\contentsline {section}{\numberline {6}Inputting CSV Files into \LaTeX {}}{14}{section.6}
+\contentsline {section}{\numberline {7}Presentations}{15}{section.7}
+\contentsline {subsection}{\numberline {7.1}So, why should I use this instead of Powerpoint?}{17}{subsection.7.1}
